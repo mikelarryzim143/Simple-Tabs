@@ -15,9 +15,38 @@
 
 
     <title>Simple Tabs</title>
+
+     <!--font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+ 
     <link rel="stylesheet" href="/Simple-Tabs/index.css">
 </head>
 <body>
+    <div class="container">
+    <div class="tab">
+        <button class="tablinks active" onclick="opentab(event, 'tab1')">First Tab</button>
+        <button class="tablinks" onclick="opentab(event, 'tab2')">Second Tab</button>
+        <button class="tablinks" onclick="opentab(event, 'tab3')">Third Tab</button>
+        <button class="tablinks" onclick="opentab(event, 'tab4')">Forth Tab</button>
+    </div>
+    <p>Clicking each tab should hide the content of the other tab and show the contentof clicked tab.
+        By default, enable the first tab.
+    </p>
+    <div class="tabcontent" id="tab1">
+        <p>This is the first tab it has 1 and 1 and 1 and 1 then convert it to one one one one </p>
+    </div>
+    <div class="tabcontent" id="tab2">
+        <p>Second tab full of 2s 2 and 2 and 2 and more 2 and there is more two two two two two</p>
+    </div>
+    <div class="tabcontent" id="tab3">
+        <p>Third time is always the charm it has 3 and 3 and 3 and 3 and more of three three three three </p>
+    </div>
+    <div class="tabcontent" id="tab4">
+        <p>Forth is the special because all tabs have 4 of their number but four only has one  </p>
+    </div>
+</div>
     <script src="/Simple-Tabs/index.js"></script>
 </body>
 </html>
