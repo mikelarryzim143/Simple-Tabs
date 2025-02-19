@@ -22,5 +22,21 @@ body{
     background:none;
     border:none;
     font-size:x-large;
-    color:rgb(216, 216, 216)
+    color:rgb(216, 216, 216);
+    cursor:pointer
+}
+
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    color: white ;
+    background-color: black;
+    border-radius: 20px;
+    height: 200px;
+}
+ .active{
+    display:inline-block ;
+    justify-content: center;
+    align-items: center;
+
 }
