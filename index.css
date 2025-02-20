@@ -13,11 +13,7 @@ body{
     margin: auto;
     padding: 25px;
 }
-.tab .active{
-    border-bottom: 2px solid black;
-    color: black;
 
-}
 .tab button{
     background:none;
     border:none;
@@ -34,9 +30,12 @@ body{
     border-radius: 20px;
     height: 200px;
 }
- .active{
+ .tab button.active{
+    border-bottom: 2px solid black;
+    color: black;
     display:inline-block ;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
+   
 }
